@@ -10,7 +10,7 @@
 <rfc xmlns:xi="http://www.w3.org/2001/XInclude" category="std" ipr="trust200902" docName="draft-ietf-httpbis-safe-method-w-body-14" number="10008" updates="" obsoletes="" symRefs="true" sortRefs="false" xml:lang="en" tocInclude="true" submissionType="IETF" consensus="true" version="3">
 
   <front>
-    <title abbrev="">The HTTP QUERY Method</title>
+    <title>The HTTP QUERY Method</title>
     <seriesInfo name="RFC" value="10008"/>
     <author initials="J." surname="Reschke" fullname="Julian Reschke">
       <organization abbrev="greenbytes">greenbytes GmbH</organization>
