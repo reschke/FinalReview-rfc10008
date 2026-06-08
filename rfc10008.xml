@@ -739,8 +739,8 @@ Allow: GET, QUERY, OPTIONS, HEAD]]></sourcecode>
       <t>
         There are alternatives to the use of OPTIONS. For instance, a QUERY request
         can be tried without prior knowledge of server support. The server would then
-        either process the request, or it could respond with a 4xx status such as 405 (Method Not Allowed)
-        (<xref target="RFC9110" section="15.5.6"/>), including the Allow response field.
+        either process the request, or it could respond with a 4xx status such as 405 (Method Not Allowed,
+        <xref target="RFC9110" section="15.5.6"/>), including the Allow response field.
       </t>
     </section>
 
