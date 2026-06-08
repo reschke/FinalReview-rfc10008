@@ -302,7 +302,7 @@ q=foo&limit=10&sort=-published]]></sourcecode>
       <name>Equivalent Resource</name>
       <t>
         The <em>equivalent resource</em> for any given QUERY request is a resource
-        responding to GET requests, representing that QUERY request and its target, taking
+        that responds to GET requests, represents that QUERY request and its target, and takes
         both message content and metadata into account (<xref target="RFC9110" section="6"/>).
         In particular, this includes representation metadata (<xref target="RFC9110" section="8"/>)
         such as the content's media type.
