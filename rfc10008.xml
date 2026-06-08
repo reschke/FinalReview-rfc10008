@@ -893,8 +893,8 @@ If-None-Match: "42-1"]]></sourcecode>
       <section anchor="example.indirect">
 	<name>Indirect Responses</name>
         <t>
-          Servers can send "indirect" responses (<xref target="redirection"/>) using the status code 303 (See Other)
-          (<xref target="RFC9110" section="15.4.4"/>).
+          Servers can send "indirect" responses (<xref target="redirection"/>) using the status code 303 (See Other,
+          <xref target="RFC9110" section="15.4.4"/>).
         </t>
         <t>
           Given the request at the beginning of <xref target="example.content-location.location.indirect"/>,
