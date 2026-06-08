@@ -545,8 +545,7 @@ Accept-Query: "application/jsonpath", application/sql;charset="UTF-8"]]></source
       A QUERY request from user agents implementing Cross-Origin Resource Sharing (CORS)
       will require a "preflight" request,
       as QUERY does not belong to the set of CORS-safelisted methods
-      (see Section 2.2.1 (Methods) in
-      <xref target="FETCH"/>).
+      (see <xref target="FETCH"/>).
     </t>
   </section>
 
