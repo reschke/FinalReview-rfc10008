@@ -104,7 +104,7 @@ Content-Type: application/x-www-form-urlencoded
 q=foo&limit=10&sort=-published]]></sourcecode>
 
     <t>
-      In this variation, however, it is not readily apparent -- absent specific knowledge of the
+      In this variation, however, it is not readily apparent -- without specific knowledge of the
       resource and server to which the request is being sent -- that a safe,
       idempotent query is being performed.
     </t>
