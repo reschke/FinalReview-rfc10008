@@ -768,7 +768,7 @@ Accept-Query: application/x-www-form-urlencoded, application/sql]]></sourcecode>
       </t>
       <t>
         An alternative to checking Accept-Query would be to make a QUERY request, and then
-        (in case of a 4xx status such as a 415 (Unsupported Media Type) response; see <xref target="RFC9110" section="15.5.16"/>)
+        -- in case of a 4xx status such as a 415 response (Unsupported Media Type, <xref target="RFC9110" section="15.5.16"/>) --
         to inspect the Accept response field (<xref target="RFC9110" section="12.5.1"/>):
       </t>
 <sourcecode type="http-message"><![CDATA[
