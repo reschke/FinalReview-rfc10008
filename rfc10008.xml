@@ -466,7 +466,7 @@ q=foo&limit=10&sort=-published]]></sourcecode>
   <section anchor="field.accept-query">
     <name>The Accept-Query Header Field</name>
     <t>
-      The Accept-Query response header field can be used by a resource to
+      The "Accept-Query" response header field can be used by a resource to
       directly signal support for the QUERY method while identifying
       the specific query format media type(s) that may be used.
     </t>
