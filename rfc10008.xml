@@ -128,7 +128,7 @@ q=foo&limit=10&sort=-published]]></sourcecode>
       identified by a URI, this specification describes how a server can assign URIs to both
       the query itself or to a specific query result, for later use in a GET request.
     </t>
-    <t>To summarize:</t>
+    <t>Summarizing:</t>
     <table align="center">
       <name>Summary of Relevant Method Properties</name>
       <thead>
