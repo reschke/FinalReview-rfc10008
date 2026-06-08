@@ -484,7 +484,7 @@ q=foo&limit=10&sort=-published]]></sourcecode>
       differently based on the received type.
     </t>
     <t>
-      Media types do not exactly map to Tokens, for instance, they
+      Media types do not exactly map to Tokens; for instance, they
       allow a leading digit. In cases like these, the String format needs to
       be used.
     </t>
