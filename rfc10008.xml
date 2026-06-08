@@ -418,7 +418,7 @@ q=foo&limit=10&sort=-published]]></sourcecode>
       </t>
       <t>
         To improve cache efficiency, caches <bcp14>MAY</bcp14> remove semantically
-        insignificant differences first, for instance, by:
+        insignificant differences from request content and related metadata first. For instance, by:
       </t>
       <ul>
         <li>removing content encoding(s) (<xref target="RFC9110" section="8.4"/>).</li>
