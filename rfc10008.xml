@@ -268,8 +268,7 @@ q=foo&limit=10&sort=-published]]></sourcecode>
       </t>
       <ul>
         <li>
-          A request lacking media type information by definition is incorrect and needs to fail
-          with a 4xx status code such as 400 (Client Error).
+          If a request lacks media type information, it is incorrect by definition and needs to fail with a 4xx status code such as 400 (Client Error).
         </li>
         <li>
           If a media type is specified but is not supported by the resource, a 415 (Unsupported Media Type)
@@ -291,7 +290,7 @@ q=foo&limit=10&sort=-published]]></sourcecode>
           correct SQL query that identifies a non-existent table.
         </li>
         <li>
-          Finally, if the client requests a specific response media type using the Accept
+          If the client requests a specific response media type using the Accept
           field (<xref target="RFC9110" sectionFormat="comma" section="12.5.1"/>) that is not supported
           by the resource, a status code of 406 (Not Acceptable) is appropriate.
         </li>
