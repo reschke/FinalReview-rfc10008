@@ -414,7 +414,7 @@ q=foo&limit=10&sort=-published]]></sourcecode>
       <t>
         The cache key for a QUERY request (<xref target="RFC9111" section="2"/>) <bcp14>MUST</bcp14>
         incorporate the request content (<xref target="RFC9111" section="6"/>) and related
-        metadata (<xref target="RFC9111" section="8"/>).
+        metadata (<xref target="RFC9110" section="8"/>).
       </t>
       <t>
         To improve cache efficiency, caches <bcp14>MAY</bcp14> remove semantically
